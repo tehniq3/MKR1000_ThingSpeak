@@ -22,10 +22,10 @@ Nicu Florica made some changes, see https://github.com/tehniq3/MRK1000_ThingSpea
 
 DHT dht(DHTPIN,DHTTYPE);
 
-String apiKey ="YFWGULGPU3KHRT8A"; // api from ThingSpeak
+String apiKey ="Write API Key"; // api from ThingSpeak
 
-char ssid[] = "Sfera"; //  your network SSID (name)
-char pass[] = "sferacom";    //your network password
+char ssid[] = "Your_SSID_here"; //  your network SSID (name)
+char pass[] = "Your_Password_here";    //your network password
 int keyIndex = 0;     // your network key Index number (needed only for WEP)
 
 
