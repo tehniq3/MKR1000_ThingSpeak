@@ -24,7 +24,7 @@ DHT dht(DHTPIN,DHTTYPE);
 
 String apiKey ="Write API Key"; // api from ThingSpeak
 
-char ssid[] = "Your_SSID_here"; //  your network SSID (name)
+char ssid[] = "Your_SSID_here"; //  your network SSID (name) 
 char pass[] = "Your_Password_here";    //your network password
 int keyIndex = 0;     // your network key Index number (needed only for WEP)
 
