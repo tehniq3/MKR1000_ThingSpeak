@@ -41,7 +41,7 @@ char server[] = "api.thingspeak.com";    // name address for Google (using DNS)
 WiFiClient client;
 
 float h, t, f;      // average values for humidity, temperature in Celsius and Farenheit 
-float h1, t1, f1;   // actual values for humidity, temperature in Celsius and Farenheit 
+float h2, t2, f2;   // actual values for humidity, temperature in Celsius and Farenheit 
 
 
 void setup() {
@@ -92,14 +92,14 @@ void loop() {
   //prefer to use float, but package size or float conversion isnt working
   //will revise in future with a string fuction or float conversion function
 
-  h1 = dht.readHumidity();
-  h = (h + h1) /2;
+  h2 = dht.readHumidity();
+  h = (h + h2) /2;
   // Read temperature as Celsius (the default)
-  t1 = dht.readTemperature();
-  t = (t + t1)/2;
+  t2 = dht.readTemperature();
+  t = (t + t2)/2;
   // Read temperature as Fahrenheit (isFahrenheit = true)
-  f1 = dht.readTemperature(true);
-  f = (f + f1)/2;
+  f2 = dht.readTemperature(true);
+  f = (f + f2)/2;
 
   // Check if any reads failed and exit early (to try again).
   if (isnan(h) || isnan(t) || isnan(f))
