@@ -7,7 +7,7 @@ added a brute force float string handler to address package size issue
 found at https://www.hackster.io/detox/mkr1000-to-dht11-wireless-data-to-thingspeak-com-5bb252?utm_source=hackster&utm_medium=email&utm_campaign=new_projects
 complex sketch at https://github.com/sborsay/Arduino_Wireless/blob/master/MKR1000_to_thingspeak_FloatStringHandler
  
-Nicu Florica made some changes, see https://github.com/tehniq3/MRK1000_ThingSpeak/ 
+Nicu Florica made some changes, see https://github.com/tehniq3/MKR1000_ThingSpeak/ 
  */
 
 #include <WiFi101.h>  // https://github.com/arduino-libraries/WiFi101
